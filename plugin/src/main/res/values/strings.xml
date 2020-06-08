@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dex</string>
+    <string name="plugin_hello_world">你好</string>
+
+</resources>

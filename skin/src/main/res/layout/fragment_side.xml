@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/leftMain"
+    android:background="@drawable/skin_welcome"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/appChangeOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/skin_icon_launcher" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/skin_menu_text_color"
+            android:textSize="20dp"
+            android:paddingLeft="30dp"
+            android:layout_weight="4"
+            android:text="应用内换肤（RED）" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/appChangeTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/skin_icon_launcher" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:paddingLeft="30dp"
+            android:textColor="@color/skin_menu_text_color"
+            android:layout_weight="4"
+            android:text="应用内换肤（Blue）" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/patch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/skin_icon_launcher" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textColor="@color/skin_menu_text_color"
+            android:paddingLeft="30dp"
+            android:layout_weight="4"
+            android:text="插件换肤" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:src="@drawable/skin_icon_launcher" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/skin_menu_text_color"
+            android:textSize="20dp"
+            android:paddingLeft="30dp"
+            android:layout_weight="4"
+            android:text="恢复默认" />
+    </LinearLayout>
+
+</LinearLayout>
