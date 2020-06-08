@@ -14,8 +14,6 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import com.leo.aspectj.AspectActivity;
-import com.leo.aspectj.KotlinActivity;
 
 import java.io.File;
 import java.lang.reflect.Method;
